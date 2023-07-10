@@ -1,0 +1,21 @@
+{
+	"name": "Portenta-FlashStorage",
+	"version": "1.0.0",
+	"description": "An easy to use API to store and retrieve a struct of data in the non-volatile flash memory of the Portenta H7.",
+	"repository":
+  {
+    "type": "git",
+    "url": "https://github.com/trylaarsdam/portenta-flashstorage.git"
+  },
+	"authors": 
+	[
+		{
+			"name": "Todd Rylaarsdam",
+			"email": "todd@toddr.org",
+			"url": "https://toddr.org",
+			"maintainer": true
+		}
+	],
+	"frameworks": "Arduino",
+  "platforms": "STSTM32"
+}
