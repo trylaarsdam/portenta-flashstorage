@@ -21,6 +21,12 @@ You do not need to change any other part of the library to make your struct comp
 
 This guide will use the default struct provided, so make sure to modify your references to the struct when they come up.
 
+### Include the library
+Include the library in your `main.cpp` or other files using:
+```cpp
+#include "FlashKeyValue.h"
+```
+
 ### Initializing the flash
 You must initialize the flash before using it, otherwise reading/writing will return error codes. To do this, call the `FlashKeyValue::init()` function like this:
 ```cpp
