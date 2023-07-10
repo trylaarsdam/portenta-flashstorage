@@ -1,6 +1,6 @@
 {
 	"name": "Portenta-FlashStorage",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An easy to use API to store and retrieve a struct of data in the non-volatile flash memory of the Portenta H7.",
 	"repository":
   {
